@@ -22,7 +22,11 @@
     
     NSLog(@"这是一个国际化的Demo");
     
-    
+    UIButton * button = [[UIButton alloc]init];
+    button.frame = CGRectMake(100, 100, 100, 100);
+    button.backgroundColor = [UIColor redColor];
+    [button setTitle:@"按钮" forState:UIControlStateNormal];
+    [self.view addSubview:button];
     
     
 }
